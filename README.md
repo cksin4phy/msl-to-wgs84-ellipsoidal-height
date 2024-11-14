@@ -20,8 +20,9 @@ geographiclib-get-geoids egm2008-1
 
 ## Step 3: Calculate Geoid Height in Python
 
-Calculate the ellipsoidal height using the python script msl2hae.py by editing the (latitude, longitude, msl):
+Calculate the ellipsoidal height using the python script msl2hae.py by editing the (latitude, longitude, msl).:
 
 ```bash
 python msl2hae.py
 ```
+The script will call the GeoidEval command in shell and get the result for potential calculation. Please visit [geographiclib documentation](https://geographiclib.sourceforge.io/1.52/GeoidEval.1.html) for details of the command.
